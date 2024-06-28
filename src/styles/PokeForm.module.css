@@ -1,0 +1,44 @@
+.PokeForm {
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 5%;
+}
+
+.PokeForm label {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.PokeForm input {
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.Pokemon{
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid gold;
+    border-radius: .8em;
+
+    margin-bottom: 10%;
+}
+.Pokemon img{
+    border-bottom: 1px solid grey;
+}
+
+.Pokemon > div{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.Pokemon span{
+    border: 1px solid white;
+    border-radius: .5em;
+    padding: .5em;
+}
+
+  
